@@ -4,6 +4,9 @@ import inquirer from "inquirer";
 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 
+console.log("Welcome To Number Guessing Game");
+
+
 const answers = await inquirer.prompt([
     {
         name: "userGuessNumber",
